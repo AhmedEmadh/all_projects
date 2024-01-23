@@ -5,6 +5,7 @@
  Version     : 1.0
  Date        : 11/22/2023
  Description : type paramenters in windows cmd => [Application path] [ENC/DEC for Encryption or Decryption] [data in hex (max 4 digits)] [key in hex (max 4 digit)]
+ Example	:>> main.exe ENC 6DF4 42FA
  Notes       : The Parameters is not case sensetive and prints messages when wrong paramenters entered
  ============================================================================
  */
