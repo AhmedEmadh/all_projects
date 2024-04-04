@@ -1,0 +1,9 @@
+sel(input wire) => selects the internal register to write in it
+sel = 1 => direction register
+sel = 0 => data register
+
+wen (input wire) => write enable (must be 1 when writing data to internal reg)
+
+pins (8 inout wires) => in or out GPIO pins based on the value of the direction reg
+
+write data (8 input wires) => writes data to selected register with sel
