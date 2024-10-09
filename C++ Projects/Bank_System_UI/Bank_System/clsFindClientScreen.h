@@ -25,6 +25,10 @@ private:
 public:
 	static void ShowFindClientScreen()
 	{
+        if (!CheckAccessRights(clsUser::enPermissions::pFindClient))
+        {
+            return;
+        }
         std::string AccountNumber;
         std::cout << "Please Enter Client Account Number to View: ";
         std::cin >> AccountNumber;

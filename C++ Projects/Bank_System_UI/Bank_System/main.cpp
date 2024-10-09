@@ -1,8 +1,7 @@
 //ProgrammingAdvices.com
 //Mohammed Abu-Hadhoud
 
-#include "clsMainScreen.h"
-
+#include "clsLoginScreen.h"
 int main()
 {
     //ViewClient();
@@ -12,7 +11,11 @@ int main()
     //ShowClientsList();
     //ShowTotalBalances();
     //system("pause");
-    clsMainScreen::ShowMainMenue();
+    while (true)
+    {
+        if (!clsLoginScreen::ShowLoginScreen())
+            break;
+    }
     //clstotalBalancesScreen::ShowTotalBalances();
     return 0;
 }

@@ -48,6 +48,10 @@ private:
 public:
 	static void ShowUpdateClientScreen()
 	{
+        if (!CheckAccessRights(clsUser::enPermissions::pUpdateClients))
+        {
+            return;
+        }
         _DrawScreenHeader("\tUpdate Client Screen");
         std::cout << "Please Enter Account Number: ";
         std::string AccountNumber = clsInputValidate::ReadString();

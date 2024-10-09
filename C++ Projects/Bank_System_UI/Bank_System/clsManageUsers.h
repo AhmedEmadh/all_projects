@@ -94,6 +94,12 @@ class clsManageUsers: protected clsScreen
 public:
 	static void ShowManageUsersScreen()
 	{
+		if (!CheckAccessRights(clsUser::enPermissions::pManageUsers))
+		{
+			cout << setw(37) << left << "" << "\n\tPress any key to go back to Main Menue...\n";
+			system("pause>0");
+			return;
+		}
 		_DrawScreenHeader("\tManage Users Screen");
 		std::cout << setw(37) << left << "" << "===========================================\n";
 		std::cout << setw(37) << left << "" << "\t\t\tManage Users Menue\n";

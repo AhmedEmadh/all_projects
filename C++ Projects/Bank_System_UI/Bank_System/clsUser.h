@@ -202,7 +202,6 @@ public:
 
         return _GetEmptyUserObject();
     }
-
     static clsUser Find(string UserName, string Password)
     {
 
@@ -228,9 +227,7 @@ public:
         }
         return _GetEmptyUserObject();
     }
-
     enum enSaveResults { svFaildEmptyObject = 0, svSucceeded = 1, svFaildUserExists = 2 };
-
     enSaveResults Save()
     {
         switch (_Mode)
@@ -271,7 +268,6 @@ public:
         clsUser User = clsUser::Find(UserName);
         return (!User.IsEmpty());
     }
-
     bool Delete()
     {
         vector <clsUser> _vUsers;
@@ -292,10 +288,21 @@ public:
     {
         return clsUser(enMode::AddNewMode, "", "", "", "", UserName, "", 0);
     }
-
     static vector <clsUser> GetUsersList()
     {
         return _LoadUsersDataFromFile();
     }
-
+    bool CheckAccessPermission(enPermissions Permission)
+    {
+        if (this->Permissions == enPermissions::eAll)
+            return true;
+        if ((Permission & this->Permissions) == Permission)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 };

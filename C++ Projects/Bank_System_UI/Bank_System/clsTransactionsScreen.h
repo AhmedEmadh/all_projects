@@ -80,6 +80,12 @@ private:
 public:
 	static void ShowTransactionsMenue()
 	{
+		if (!CheckAccessRights(clsUser::enPermissions::pTranactions))
+		{
+			cout << setw(37) << left << "" << "\n\tPress any key to go back to Main Menue...\n";
+			system("pause>0");
+			return;
+		}
 		system("cls");
 		clsScreen::_DrawScreenHeader("\tTransactions Screen");
 		std::cout << setw(37) << left << "" << "===========================================\n";
