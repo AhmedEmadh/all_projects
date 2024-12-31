@@ -1,11 +1,5 @@
 # Auto Clicker Project
 
-<p align="center">
-    <img src="https://img.shields.io/github/license/ahmedemadh/all_projects" alt="License Badge">
-    <img src="https://img.shields.io/badge/version-1.0-blue" alt="Version Badge">
-    <img src="https://img.shields.io/badge/contributions-welcome-brightgreen" alt="Contributions Badge">
-</p>
-
 <p align="center"><strong>An automatic clicker program with adjustable time intervals, built with Python and Tkinter for GUI.</strong></p>
 
 ---

@@ -1,11 +1,5 @@
 # Prayer Times Python Project
 
-<p align="center">
-    <img src="https://img.shields.io/github/license/yourusername/prayer-times" alt="License Badge">
-    <img src="https://img.shields.io/badge/version-1.0-blue" alt="Version Badge">
-    <img src="https://img.shields.io/badge/contributions-welcome-brightgreen" alt="Contributions Badge">
-</p>
-
 <p align="center"><strong>A Python application to display daily prayer times for a specific city using the Aladhan API.</strong></p>
 
 ---
