@@ -1,13 +1,6 @@
 # Polynomial Long Division Calculator
 
-<p align="center">
-    <img src="https://img.shields.io/github/license/AhmedEmadh/polynomial-long-division-calculator" alt="License Badge">
-    <img src="https://img.shields.io/badge/version-1.0-blue" alt="Version Badge">
-    <img src="https://img.shields.io/github/actions/workflow/status/AhmedEmadh/polynomial-long-division-calculator/CI.yml" alt="Build Badge">
-    <img src="https://img.shields.io/badge/contributions-welcome-brightgreen" alt="Contributions Badge">
-</p>
-
-<p align="center"><strong>A C program for performing long division of polynomials efficiently.</strong></p>
+<p align="center"><strong>C program for performing long division of polynomials efficiently.</strong></p>
 
 ---
 
@@ -18,9 +11,6 @@
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ---
 
@@ -34,6 +24,8 @@ The Polynomial Long Division Calculator is a project that:
     <li>Created as a university project in year 2021 to demonstrate algorithmic understanding.</li>
 </ul>
 </p>
+
+## Screenshots
 
 <p align="center">
     <img src="https://github.com/AhmedEmadh/all_projects/blob/master/C%20Projects/polynomial%20long%20division%20calculator/screenshot%201.png" alt="Project Screenshot" style="max-width: 100%;">
@@ -71,3 +63,17 @@ The Polynomial Long Division Calculator is a project that:
         <pre><code>cd polynomial-long-division-calculator</code></pre>
     </li>
     <li>Compile the program using GCC toolchain
+
+## Usage
+
+1. The Program will ask you to Enter The degree of nomertor
+
+2. The Program will ask you to Enter The degree of demonator
+
+3. The Program will ask you to enter the coffients of the numerator
+
+4. The program will ask you to enter the coffients of the numerator
+
+5. The Program will Show your inputs in polynomial from
+
+6. The Program will print the output in polynomial form
