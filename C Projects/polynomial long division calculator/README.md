@@ -63,6 +63,9 @@ The Polynomial Long Division Calculator is a project that:
         <pre><code>cd polynomial-long-division-calculator</code></pre>
     </li>
     <li>Compile the program using GCC toolchain
+        <pre><code> gcc main.c -o main </code></pre>
+    </li>
+</ol>
 
 ## Usage
 
