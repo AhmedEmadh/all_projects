@@ -1,3 +1,13 @@
+/*
+ ========================================================================================================================================================
+ File Name		: clsScreen.h
+ Author			: Ahmed Emad Hassan
+ Version		: 1.0
+ Date			: 12/10/2024
+ Description	: This Class is the Base Class for all Screens in the Bank System
+ Notes			: This Class Contains Methods that are common between all screens
+ ========================================================================================================================================================
+ */
 #pragma once
 #include <iostream>
 #include "clsUser.h"

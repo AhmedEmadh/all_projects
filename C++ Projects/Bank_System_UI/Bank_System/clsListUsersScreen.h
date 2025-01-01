@@ -1,3 +1,13 @@
+/*
+ ========================================================================================================================================================
+ File Name		: clsListUsersScreen.h
+ Author			: Ahmed Emad Hassan
+ Version		: 1.0
+ Date			: 12/10/2024
+ Description	: This Class is responsible for Handling List Users Screen
+ Notes			: This Class Inherits from clsScreen to use Methods that are common between all screens
+ ========================================================================================================================================================
+ */
 #pragma once
 #include "clsScreen.h"
 #include "clsUser.h"

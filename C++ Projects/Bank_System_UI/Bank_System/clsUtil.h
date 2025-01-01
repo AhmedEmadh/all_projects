@@ -1,3 +1,13 @@
+/*
+ ========================================================================================================================================================
+ File Name		: clsUtil.h
+ Author			: Ahmed Emad Hassan
+ Version		: 1.0
+ Date			: 12/10/2024
+ Description	: This Class is responsible for Containing any function without category
+ Notes			: We Can group these functions in the future into classes
+ ========================================================================================================================================================
+ */
 #pragma once
 #include <iostream>
 #include <string>

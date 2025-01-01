@@ -1,3 +1,13 @@
+/*
+ ========================================================================================================================================================
+ File Name		: clsInputValidate.h
+ Author			: Ahmed Emad Hassan
+ Version		: 1.0
+ Date			: 12/10/2024
+ Description	: This Class is responsible for Validating User Input
+ Notes			: This Class Contains Static Methods to Validate User Input
+ ========================================================================================================================================================
+ */
 #pragma once
 #include <string>
 #include "clsDate.h"

@@ -1,3 +1,13 @@
+/*
+ ========================================================================================================================================================
+ File Name		: clsUser.h
+ Author			: Ahmed Emad Hassan
+ Version		: 1.0
+ Date			: 12/10/2024
+ Description	: This Class is responsible for Handling User
+ Notes			: This Class Inherits from clsPerson to use Methods that are common between all Users and Clients
+ ========================================================================================================================================================
+ */
 #pragma once
 #include "clsPerson.h"
 #include "clsString.h"

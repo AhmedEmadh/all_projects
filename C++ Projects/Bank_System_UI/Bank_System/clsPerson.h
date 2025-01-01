@@ -1,3 +1,13 @@
+/*
+ ========================================================================================================================================================
+ File Name		: clsPerson.h
+ Author			: Ahmed Emad Hassan
+ Version		: 1.0
+ Date			: 12/10/2024
+ Description	: This Class is the Base Class for all Users and Clients in the Bank System
+ Notes			: This Class Contains Data Members and Methods that are common between all Users and Clients
+ ========================================================================================================================================================
+ */
 #pragma once
 #include <iostream>
 #include <string>

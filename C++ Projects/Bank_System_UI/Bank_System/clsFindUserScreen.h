@@ -1,3 +1,13 @@
+/*
+ ========================================================================================================================================================
+ File Name		: clsFindUserScreen.h
+ Author			: Ahmed Emad Hassan
+ Version		: 1.0
+ Date			: 12/10/2024
+ Description	: This Class is responsible for Handling Find User Screen
+ Notes			: This Class Inherits from clsScreen to use Methods that are common between all screens
+ ========================================================================================================================================================
+ */
 #pragma once
 #include "clsScreen.h"
 #include "clsUser.h"

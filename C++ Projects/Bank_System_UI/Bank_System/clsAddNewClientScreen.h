@@ -1,3 +1,14 @@
+/*
+ ========================================================================================================================================================
+ File Name		: clsAddNewClientScreen.h
+ Author			: Ahmed Emad Hassan
+ Version		: 1.0
+ Date			: 12/10/2024
+ Description	: This Class is responsible for Handling Add new client Screen
+ Notes			: This Class Inherits from clsScreen to use Methods that are common between all screens
+ ========================================================================================================================================================
+ */
+
 #pragma once
 #include "clsBankClient.h"
 class clsAddNewClientScreen: protected clsScreen
@@ -66,17 +77,17 @@ public:
         SaveResult = NewClient.Save();
         switch (SaveResult)
         {
-        case clsBankClient::enSaveResults::svSucceeded:
-        {
-            std::cout << "Account Added Successfully :-)" << std::endl;
-            _PrintClient(NewClient);
-            break;
-        }
-        case clsBankClient::enSaveResults::svFailedEmptyObject:
-        {
-            std::cout << "Error Account was not saved because it's Empty";
-            break;
-        }
+            case clsBankClient::enSaveResults::svSucceeded:
+            {
+                std::cout << "Account Added Successfully :-)" << std::endl;
+                _PrintClient(NewClient);
+                break;
+            }
+            case clsBankClient::enSaveResults::svFailedEmptyObject:
+            {
+                std::cout << "Error Account was not saved because it's Empty";
+                break;
+            }
         }
 	}
 };

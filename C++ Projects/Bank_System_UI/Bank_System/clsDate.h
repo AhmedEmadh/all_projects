@@ -1,6 +1,13 @@
-//ProgrammingAdivces.com
-//Mohammed Abu-Hadhoud
-
+/*
+ ========================================================================================================================================================
+ File Name		: clsDate.h
+ Author			: Ahmed Emad Hassan
+ Version		: 1.0
+ Date			: 12/10/2024
+ Description	: This Class is responsible for Providing Date Handling Functionalities
+ Notes			: This Class Contains Methods to Handle Date Operations
+ ========================================================================================================================================================
+ */
 #pragma warning(disable : 4996)
 #pragma once
 

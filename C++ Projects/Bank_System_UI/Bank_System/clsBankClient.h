@@ -1,3 +1,13 @@
+/*
+ ========================================================================================================================================================
+ File Name		: clsBankClient.h
+ Author			: Ahmed Emad Hassan
+ Version		: 1.0
+ Date			: 12/10/2024
+ Description	: This Class is responsible for Handling Bank Client
+ Notes			: This class inherits from clsPerson to use its Data Members and Methods
+ ========================================================================================================================================================
+ */
 #pragma once
 #include "clsPerson.h"
 #include "clsString.h"
