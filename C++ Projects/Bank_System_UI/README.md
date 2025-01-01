@@ -73,9 +73,6 @@ This project is an excellent demonstration of C++ concepts such as:
   - Standard Template Library (STL) for data structures such as `vector`, `map`, and `queue`.
   - `<fstream>` for file handling.
   - `<iomanip>` for formatted output.
-- **Design Patterns**:
-  - Factory pattern for creating client and user objects.
-  - Singleton pattern for managing sessions.
 
 ---
 
@@ -118,7 +115,6 @@ Run the application:
 ![Client List Screenshot](https://github.com/AhmedEmadh/all_projects/blob/master/C%2B%2B%20Projects/Bank_System_UI/Client_List.png)
 ![Manage Users Screenshot](https://github.com/AhmedEmadh/all_projects/blob/master/C%2B%2B%20Projects/Bank_System_UI/Manage%20Users.png)
 ![User_List Screenshot](https://github.com/AhmedEmadh/all_projects/blob/master/C%2B%2B%20Projects/Bank_System_UI/User_List.png)
-
 
 ## Usage
 
